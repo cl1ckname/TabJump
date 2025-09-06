@@ -20,7 +20,7 @@ window.addEventListener("keydown", (e) => {
 	if (pressed === "Alt") return;
 	console.log("key info", e.altKey, pressed, overlay)
 
-	if (pressed === "e" && !overlay) {
+	if (pressed === "j" && !overlay) {
 		e.preventDefault()
 		const target = e.target as HTMLElement;
 		if (target.tagName === "INPUT" || target.tagName === "TEXTAREA" || target.isContentEditable) {

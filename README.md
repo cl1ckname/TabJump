@@ -12,7 +12,7 @@ Jump Tab is a lightweight Chrome extension that lets you quickly navigate betwee
 
 ## How to Use
 
-1. Press **Alt+L** to activate Jump Tab mode.
+1. Press **Alt+J** to activate Jump Tab mode.
 2. Tab titles will be prefixed with letters/numbers corresponding to each tab.
 3. Press **Alt+Letter** for the tab you want to jump to.
 4. Jump Tab mode exits automatically after any key press and tab titles are restored.
