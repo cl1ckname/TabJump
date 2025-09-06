@@ -18,7 +18,6 @@ window.addEventListener("keydown", (e) => {
 
 	if (!e.altKey) return;
 	if (pressed === "Alt") return;
-	console.log("key info", e.altKey, pressed, overlay)
 
 	if (pressed === "j" && !overlay) {
 		e.preventDefault()
