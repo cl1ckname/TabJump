@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "Jump Tab",
+  "description": "Quickly jump between tabs using keyboard shortcuts.",
+  "version": "0.1.0",
+  "permissions": ["tabs", "scripting", "activeTab"],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ],
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  }
+}
